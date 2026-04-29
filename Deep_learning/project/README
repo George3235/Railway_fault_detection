@@ -1,0 +1,10 @@
+# Rail Fault Detection System 
+
+## How to create a suitable enviromental variable
+1. conda create -n project_env python=3.10
+2. conda activate railway_env
+3. pip install tensorflow matplotlib pandas jupyter scikit-learn
+
+## Avoiding Merge Conflicts 
+* Before each git commit press "Clear All Output" in the notebook. 
+* If possible, make every thing modular and move it to its own .py file. Then import it in the notebook

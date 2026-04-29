@@ -1,0 +1,8 @@
+# Ignorerar dataset och bilder
+data/
+raw_data/
+*.csv
+
+__pycache__/
+*.pyc 
+
