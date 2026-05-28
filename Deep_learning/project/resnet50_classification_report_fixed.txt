@@ -1,0 +1,15 @@
+Class names: ['defective', 'non_defective']
+
+Confusion matrix:
+[[110  14]
+ [  5 120]]
+
+Classification report:
+               precision    recall  f1-score   support
+
+    defective       0.96      0.89      0.92       124
+non_defective       0.90      0.96      0.93       125
+
+     accuracy                           0.92       249
+    macro avg       0.93      0.92      0.92       249
+ weighted avg       0.93      0.92      0.92       249
