@@ -1,0 +1,17 @@
+name: railway_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - tensorflow>=2.11.0
+      - keras>=3.0.0
+      - numpy>=1.23.0
+      - pandas>=2.0.0
+      - scikit-learn>=1.2.0
+      - matplotlib>=3.7.0
+      - pillow>=9.5.0
+      - jupyterlab>=4.0.0
+      - ipykernel>=6.20.0
